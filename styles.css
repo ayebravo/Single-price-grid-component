@@ -33,6 +33,11 @@ span {
   margin-right: 26px;
 }
 
+.btn:hover {
+  cursor: pointer;
+  background: hsl(204, 43%, 93%);
+}
+
 .description {
   color: hsl(218, 22%, 67%);
   font-size: 18px;
@@ -89,5 +94,5 @@ span {
 }
 
 .attribution {
-  font-size: 14px;
+  font-size: 15px;
 }
