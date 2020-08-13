@@ -67,7 +67,7 @@ span {
 
 .bottom-part {
   color: #f9ffff;
-  padding: 35px 25px 34px 42px;
+  /* padding: 35px 25px 34px 42px; */
   background: hsl(179, 62%, 43%);
   border: 1px solid hsl(204, 43%, 93%);
   border-bottom-left-radius: 10px;
@@ -80,6 +80,7 @@ span {
 
 .right-side {
   background: hsl(179, 61%, 51%);
+  border-bottom-right-radius: 10px;
 
   /* padding: 35px 25px 34px 54px; */
 }
