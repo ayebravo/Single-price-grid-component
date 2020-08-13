@@ -74,9 +74,9 @@ span {
   border-bottom-right-radius: 10px;
 }
 
-.left-side {
-  /* padding: 35px 25px 34px 54px; */
-}
+/* .left-side {
+  padding: 35px 25px 34px 54px;
+} */
 
 .right-side {
   background: hsl(179, 61%, 51%);
