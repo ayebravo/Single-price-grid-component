@@ -2,16 +2,23 @@ body {
   background: hsl(204, 43%, 93%);
   font-family: "Karla", sans-serif;
   font-size: 16px;
+  margin: 100px auto;
+  max-width: 50%;
+  min-width: fit-content;
 }
 
 .container {
-  width: 50%;
-  margin: 140px auto;
+  max-width: 90%;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  border-radius: 10px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
+  margin-top: 1rem;
+  line-height: 25px;
 }
 
 span {
@@ -28,49 +35,60 @@ span {
 
 .description {
   color: hsl(218, 22%, 67%);
+  font-size: 18px;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
 
 .bottom-part h6 {
   color: #f9ffff;
+  font-weight: 600;
 }
 
 .headline {
   color: hsl(179, 62%, 43%);
-  font-size: 24px;
   font-weight: 700;
 }
 
 .sub-headline {
   color: hsl(71, 73%, 54%);
-  font-size: 17px;
+  font-size: 19px;
   font-weight: 700;
+  margin-top: 2rem;
 }
 
 .top-part {
   background: #ffffff;
-  padding: 35px 20px 10px 10px;
+  padding: 35px 20px 10px 27px;
   border: 1px solid hsl(204, 43%, 93%);
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .bottom-part {
   color: #f9ffff;
+  padding: 35px 25px 34px 42px;
   background: hsl(179, 62%, 43%);
   border: 1px solid hsl(204, 43%, 93%);
-  border-bottom-left-radius: 7px;
-  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .left-side {
-  padding: 35px 25px 34px 54px;
+  /* padding: 35px 25px 34px 54px; */
 }
 
 .right-side {
   background: hsl(179, 61%, 51%);
-  padding: 35px 25px 34px 54px;
+
+  /* padding: 35px 25px 34px 54px; */
 }
 
 .price {
   font-size: 35px;
+}
+
+.promotion {
+  font-size: 18px;
+  margin-bottom: 2rem;
 }
